@@ -24,8 +24,8 @@ const styles = StyleSheet.create({
     },
 
     imagemFilmes:{
-        width:'100%',
-        height:70,
+        width: '100%',
+        height:170,
         borderRadius:8
     }
 })

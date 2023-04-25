@@ -8,6 +8,8 @@ import CardFilmes from './src/components/cardFilmes';
 import Header from './src/components/header';
 import SerchBar from './src/components/SerchBar';
 
+
+
 export default function App() {
   return (
     <View style={styles.container}>
@@ -17,16 +19,23 @@ export default function App() {
       <BannerFilms />
 
       <View style={{width:"90%"}}>
+        
       <FlatList
       horizontal = {true}
+      showsHorizontalScrollIndicator = {false}
       data= {Filmes}
       keyExtractor = {(item) => item.id }
       renderItem = { ({item}) => (
         
-        <CardFilmes></CardFilmes>
-        
+        <CardFilmes
 
-      ) }
+        titulo = {item.name}
+        nota = {item.feedback}
+        imagem = {item.image}
+        
+        />
+        
+      )}
 
       />
       </View>

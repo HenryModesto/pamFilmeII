@@ -2,13 +2,14 @@ import React from "react";
 import { Image,Text,TouchableOpacity  } from "react-native";
 import styles from "./style";
 
-export default function CardFilmes(){
+export default function CardFilmes({titulo,nota,imagem}){
+     
     return(
 
         <TouchableOpacity style ={styles.containerFilmes}>
-            < Image style={styles.imagemFilmes} source = {require("../../img/1.png")}/>
-            <Text style={styles.tituloFilmes}>Pantera Negra</Text>
-            <Text style={styles.notaFilmes}>8.8</Text>
+            <Image style={styles.imagemFilmes} source = {require(`../../img/${imagem}`)}/>
+            <Text style={styles.tituloFilmes} > {titulo} </Text>
+            <Text style={styles.notaFilmes} > {nota} </Text>
         </TouchableOpacity>
 
 

@@ -3,21 +3,21 @@
 const DATA = [
     {
         id: '01',
-        name: 'Pantera negra',
+        name: 'Justice League',
         feedback: '8.8',
-        image: '1.png'
+        image: 'justice.jpg'
     },
     {
         id: '02',
-        name: "Gato de botas",
+        name: "Super Man",
         feedback: '8.8',
-        image: '2.png'
+        image: 'super_man.png'
     },
     {
         id: '03',
-        name: "Avatar",
+        name: "Mulher Maravilha",
         feedback: '8.8',
-        image: '3.png'
+        image: 'maravilha.png'
     },
     {
         id: '04',
@@ -27,39 +27,39 @@ const DATA = [
     },
     {
         id: '05',
-        name: "IT - A Coisa",
+        name: "Suicide Squad",
         feedback: '8.8',
-        image: 'itacoisa.png'
+        image: 'esquadrao.jpg'
     },
     {
         id: '06',
-        name: "(500) Dias com Ela",
+        name: "Joker",
         feedback: '8.8',
-        image: '500diascomela.png'
+        image: 'joker.png'
     },
     {
         id: '07',
-        name: "Uncharted: Fora do Mapa",
+        name: "The Flash",
         feedback: '8.8',
-        image: 'uncharted.png'
+        image: 'flash.jpg'
     },
     {
         id: '08',
-        name: "Whiplash: Em Busca da Perfeição",
+        name: "Batman",
         feedback: '8.8',
-        image: 'whiplash.png'
-    },
-    {
-        id: '09',
-        name: "Adão Negro",
-        feedback: '8.8',
-        image: 'adão.png'
+        image: 'batman.jpg'
     },
     {
         id: '10',
-        name: "Corra!",
+        name: "Aquaman: O reino perdido",
         feedback: '8.8',
-        image: 'corra.png'
+        image: 'aquaman.jpg'
+    },
+    {
+        id: '11',
+        name: "Shazam",
+        feedback: '8.8',
+        image: 'Shazam.jpg'
     }
 ]
 
